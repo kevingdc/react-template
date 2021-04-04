@@ -1,1 +1,1 @@
-export { setDisplayText } from "./displayActions";
+export { setText } from "./sampleActions";
