@@ -4,10 +4,10 @@ const initialState = {
   text: "",
 };
 
-const sampleReducer = (state = initialState, { type, data }) => {
+const sampleReducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case sampleTypes.SAMPLE:
-      return { ...state, text: data.text };
+      return { ...state, text: payload.text };
     default:
       return state;
   }
