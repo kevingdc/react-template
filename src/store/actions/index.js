@@ -1,1 +1,1 @@
-export { setText } from "./sampleActions";
+export * from "./sampleActions";
