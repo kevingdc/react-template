@@ -6,8 +6,8 @@ const StyledHeading = styled.h1`
   margin: auto;
 `;
 
-const HelloWorld = () => {
+function HelloWorld() {
   return <StyledHeading>Hello World</StyledHeading>;
-};
+}
 
 export default HelloWorld;

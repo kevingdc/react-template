@@ -90,7 +90,7 @@ const TextBox = styled.input`
   margin-right: 4px;
 `;
 
-export function Counter() {
+function Counter() {
   const count = useAppSelector(selectCount);
   const dispatch = useAppDispatch();
   const [incrementAmount, setIncrementAmount] = useState('2');
@@ -133,3 +133,5 @@ export function Counter() {
     </div>
   );
 }
+
+export default Counter;
